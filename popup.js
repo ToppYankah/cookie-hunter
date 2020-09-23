@@ -5,7 +5,7 @@ let detectionSize = 10;
 const renderSafe = () => {
   clearButton.disabled = true;
   const markup = `
-    <img src="safe.png" alt="" />
+    <img src="img/safe.png" alt="" />
         <h5>Your computer is safe</h5>
     `;
   body.innerHTML = markup;
@@ -14,7 +14,7 @@ const renderSafe = () => {
 const renderUnsafe = (size) => {
   clearButton.disabled = false;
   const markup = `
-    <img src="unsafe.png" alt="" />
+    <img src="img/unsafe.png" alt="" />
         <h5>${size} number of malicious cookies detected</h5>
     `;
   body.innerHTML = markup;

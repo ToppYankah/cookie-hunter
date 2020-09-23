@@ -5,7 +5,7 @@
   "version": "1.0",
 
   "browser_action": {
-    "default_icon": "cookiehunter.png",
+    "default_icon": "img/cookiehunter.png",
     "default_popup": "popup.html"
   },
   "permissions": ["activeTab"]
